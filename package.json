@@ -15,6 +15,13 @@
     "image",
     "location"
   ],
+  "repository": {
+    "type": "git",
+    "url": "github:compwright/exif-geojson"
+  },
+  "engines": {
+    "node": ">=8"
+  },
   "author": "Jonathon Hill <jhill9693@gmail.com>",
   "license": "MIT",
   "dependencies": {
