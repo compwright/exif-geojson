@@ -1,5 +1,7 @@
 # exif-geojson
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/compwright/exif-geojson.svg)](https://greenkeeper.io/)
+
 A ES2017 function to generate a [GeoJSON Point](https://tools.ietf.org/html/rfc7946#appendix-A.1) from [EXIF GPS data](https://sno.phy.queensu.ca/~phil/exiftool/TagNames/GPS.html).
 
 This function is meant to be used with [exif](https://github.com/gomfunkel/node-exif) or [exif-async](https://github.com/jacekwasowski/exif-async).
