@@ -1,0 +1,31 @@
+{
+  "name": "exif-geojson",
+  "version": "1.0.0",
+  "description": "Generate a GeoJSON Point from EXIF GPS data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "keywords": [
+    "exif",
+    "geojson",
+    "geometry",
+    "point",
+    "gps",
+    "image",
+    "location"
+  ],
+  "author": "Jonathon Hill <jhill9693@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dms2dec": "^1.1.0",
+    "exif-async": "^1.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "peerDependencies": {
+    "exif": "^0.6.0",
+    "exif-async": "^1.0.6"
+  }
+}
