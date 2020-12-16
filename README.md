@@ -1,6 +1,9 @@
 # exif-geojson
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/compwright/exif-geojson.svg)](https://greenkeeper.io/) [![Build Status](https://travis-ci.org/compwright/exif-geojson.svg?branch=master)](https://travis-ci.org/compwright/exif-geojson)
+[![Build Status](https://travis-ci.org/compwright/exif-geojson.svg?branch=master)](https://travis-ci.org/compwright/exif-geojson)
+[![Dependency Status](https://img.shields.io/david/compwright/exif-geojson.svg?style=flat-square)](https://david-dm.org/compwright/exif-geojson)
+[![Download Status](https://img.shields.io/npm/dm/exif-geojson.svg?style=flat-square)](https://www.npmjs.com/package/exif-geojson)
+[![Sponsor on GitHub](https://img.shields.io/static/v1?label=Sponsor&message=❤&logo=GitHub&link=https://github.com/sponsors/compwright)](https://github.com/sponsors/compwright)
 
 A ES2017 function to generate a [GeoJSON Point](https://tools.ietf.org/html/rfc7946#appendix-A.1) from [EXIF GPS data](https://sno.phy.queensu.ca/~phil/exiftool/TagNames/GPS.html).
 
