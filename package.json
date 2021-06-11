@@ -4,7 +4,7 @@
   "description": "Generate a GeoJSON Point from EXIF GPS data",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test"
+    "test": "jest"
   },
   "keywords": [
     "exif",
@@ -25,11 +25,10 @@
   "author": "Jonathon Hill <jhill9693@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "dms2dec": "^1.1.0",
-    "exif-async": "^1.0.6"
+    "dms2dec": "^1.1.0"
   },
   "devDependencies": {
-    "mocha": "^8.2.0"
+    "jest": "^27.0.4"
   },
   "peerDependencies": {
     "exif": "^0.6.0",
