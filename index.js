@@ -2,7 +2,15 @@ const dms2dec = require('dms2dec');
 
 function exifGeojson (exifData = {}) {
     try {
-        const { GPSLatitude, GPSLatitudeRef, GPSLongitude, GPSLongitudeRef, GPSAltitude, GPSAltitudeRef } = exifData.gps;
+        const {
+            GPSLatitude,
+            GPSLatitudeRef,
+            GPSLongitude,
+            GPSLongitudeRef,
+            GPSAltitude,
+            GPSAltitudeRef
+        } = exifData.gps;
+        
         var coordinates = dms2dec(GPSLatitude, GPSLatitudeRef, GPSLongitude, GPSLongitudeRef);
         var alt = ((0 - GPSAltitudeRef) * GPSAltitude) || GPSAltitude; // negate if below sea level
     } catch (e) {
@@ -10,8 +18,9 @@ function exifGeojson (exifData = {}) {
     }
             
     return {
+        type: 'Feature',
         geometry: {
-            type: 'point',
+            type: 'Point',
             coordinates: coordinates.reverse().concat(alt)
         }
     };

@@ -3,7 +3,7 @@ const exifGeojson = require('../');
 
 describe('exifGeojson', () => {
     it('should generate a valid GeoJSON point when exif.gps data is present', done => {
-        assert.deepEqual(
+        assert.deepStrictEqual(
             exifGeojson(require('./test-exif.json')),
             require('./test-point.json')
         );
