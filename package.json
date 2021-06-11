@@ -1,6 +1,6 @@
 {
   "name": "exif-geojson",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Generate a GeoJSON Point from EXIF GPS data",
   "main": "index.js",
   "scripts": {
