@@ -28,7 +28,7 @@
     "dms2dec": "^1.1.0"
   },
   "devDependencies": {
-    "jest": "*"
+    "jest": "latest"
   },
   "peerDependencies": {
     "exif": "^0.6.0",
